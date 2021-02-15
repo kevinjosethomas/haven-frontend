@@ -7,22 +7,22 @@ assignees: ''
 
 ---
 
-### Description
+## Description
 Provide a clear and concise description of the bug you're reporting
 ```
 ENTER THE DESCRIPTION HERE
 ```
 
-### Steps to reproduce
+## Steps to reproduce
 Provide a list of steps for us to experience the same behaviour
 ```
 ENTER THE STEPS TO REPRODUCE HERE
 ```
 
-### Screenshots
+## Screenshots
 Provide any screenshots you can, or delete this section entirely
 
-### Credit
+## Credit
 Credit someone else who found the bug or helped you find the bug
 ```
 ENTER COLLABORATORS HERE
