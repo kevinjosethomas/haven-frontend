@@ -25,6 +25,20 @@
       "contributions": [
         "a11y"
       ]
+    },
+    {
+      "login": "TrustedMercury",
+      "name": "Kevin Thomas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46242684?v=4",
+      "profile": "https://kevinthomas.codes/",
+      "contributions": [
+        "a11y",
+        "doc",
+        "code",
+        "design",
+        "review",
+        "ideas"
+      ]
     }
   ],
   "projectName": "haven-frontend",
