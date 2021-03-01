@@ -24,7 +24,7 @@ There are two places you can request and suggest features -
 * [Support Discord Server](https://discord.haven.bio/)
 * [Creating GitHub Issues](https://github.com/teamcodebyte/haven-backend/issues/new?assignees=&labels=suggestion&template=feature-request.md)
 Follow the template and provide all essential information and we might implement the features you suggest!
-Make sure you claim your Eureka role if your suggestions implemented!
+Make sure you claim your Eureka role if your suggestion is implemented!
 ### Contributing with code
 If you decide to contribute with code, here's what you must do -
 * create an issue (preferably using one of the issue templates provided)
