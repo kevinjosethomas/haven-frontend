@@ -1,9 +1,25 @@
 {
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 64,
   "contributorsPerLine": 5,
   "contributorsSortAlphabetically": true,
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><b><%= contributor.name %></b></a>",
-  "skipCi": "true",
-  "contributors": []
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "quaackk",
+      "name": "Quack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79001754?v=4",
+      "profile": "https://github.com/quaackk",
+      "contributions": [
+        "a11y"
+      ]
+    }
+  ],
+  "projectName": "haven-frontend",
+  "projectOwner": "teamcodebyte",
+  "repoType": "github",
+  "repoHost": "https://github.com"
 }
