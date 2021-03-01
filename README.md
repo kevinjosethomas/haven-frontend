@@ -10,3 +10,5 @@ Haven is an opensource website (haven.bio) that provides various features that a
 
 ## Contributing
 Thanks for your interest in contributing! 🎉 You can contribute by reporting bugs, suggesting features and by developing and resolving existing issues! If you're looking to contribute, read our [contributing guidelines](https://github.com/teamcodebyte/haven-frontend/blob/main/CONTRIBUTING.md) and you should know what to do! Contact us in our [support discord server](https://discord.haven.bio) if you have anymore questions!
+
+## Contributors
