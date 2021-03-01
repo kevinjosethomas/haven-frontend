@@ -1,0 +1,48 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 64,
+  "contributorsPerLine": 5,
+  "contributorsSortAlphabetically": true,
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><b><%= contributor.name %></b></a>",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "quaackk",
+      "name": "Quack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79001754?v=4",
+      "profile": "https://github.com/quaackk",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "GreatGuy96",
+      "name": "GreatGuy96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58440950?v=4",
+      "profile": "https://github.com/GreatGuy96",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "TrustedMercury",
+      "name": "Kevin Thomas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46242684?v=4",
+      "profile": "https://kevinthomas.codes/",
+      "contributions": [
+        "a11y",
+        "doc",
+        "code",
+        "design",
+        "review",
+        "ideas"
+      ]
+    }
+  ],
+  "projectName": "haven-frontend",
+  "projectOwner": "teamcodebyte",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
