@@ -1,0 +1,23 @@
+
+/* TailwindCSS */
+
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+@tailwind  utilities;
+/* purgecss end ignore */
+
+
+/* Fonts */
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-proxima {
+  font-family: "proxima-soft";
+}
