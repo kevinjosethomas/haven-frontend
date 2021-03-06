@@ -8,14 +8,8 @@ assignees: ''
 ---
 
 ## Description
-Provide a clear and concise description of the feature you're suggesting
-```
-ENTER THE DESCRIPTION HERE
-```
+<!-- Provide a clear and concise description of the feature you're suggesting  -->
 
 
 ## Credit
-Credit someone else who came up with the idea or helped you think of the feature
-```
-ENTER COLLABORATORS HERE
-```
+<!-- Credit others who came up with the idea or helped you think of the feature, or delete this section entirely -->

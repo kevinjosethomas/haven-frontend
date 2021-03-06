@@ -8,22 +8,13 @@ assignees: ''
 ---
 
 ## Description
-Provide a clear and concise description of the bug you're reporting
-```
-ENTER THE DESCRIPTION HERE
-```
+<!-- Provide a clear and concise description of the bug you're reporting -->
 
 ## Steps to reproduce
-Provide a list of steps for us to experience the same behaviour
-```
-ENTER THE STEPS TO REPRODUCE HERE
-```
+<!-- Provide a list of steps for us to experience the same behaviour -->
 
 ## Screenshots
-Provide any screenshots you can, or delete this section entirely
+<!-- Provide any screenshots you can, or delete this section entirely -->
 
 ## Credit
-Credit someone else who found the bug or helped you find the bug
-```
-ENTER COLLABORATORS HERE
-```
+<!-- Credit others who found the bug or helped you find the bug -->
