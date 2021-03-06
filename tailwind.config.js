@@ -21,10 +21,9 @@ module.exports = {
       },
       borderRadius: {
         'none': '0',
-        DEFAULT: '6px',
-        'sm': '3px',
-        'md': '6px',
-        'lg': '9px',
+        'hs': '3px',
+        'hm': '6px',
+        'hl': '9px',
       }
     }
   },

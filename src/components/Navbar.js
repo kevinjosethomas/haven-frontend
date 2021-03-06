@@ -18,14 +18,14 @@ export const Navbar = ({props, home}) => {
         </a></Link>
       </div>
       <div className="flex flex-row items-center justify-end z-10 mr-10">
-        <div className="flex flex-row justify-center bg-light-200 rounded z-10 hover:bg-light-300 mr-4 px-5 py-1.5">
+        <div className="flex flex-row justify-center bg-light-200 rounded-hm z-10 hover:bg-light-300 mr-4 px-5 py-1.5">
           <Link href="#">
             <a>
               <span className="font-inter font-semibold text-center select-none text-white text-lg">Log In</span>
             </a>
           </Link>
         </div>
-        <div className="flex flex-row justify-center bg-blue-400 rounded z-10 hover:bg-blue-500 mr-4 px-5 py-1.5">
+        <div className="flex flex-row justify-center bg-blue-400 rounded-hm z-10 hover:bg-blue-500 mr-4 px-5 py-1.5">
           <Link href="#">
             <a>
               <span className="font-inter font-semibold text-center select-none text-white text-lg">Sign Up</span>
@@ -37,5 +37,3 @@ export const Navbar = ({props, home}) => {
     </nav>
   )
 }
-
-/**/
