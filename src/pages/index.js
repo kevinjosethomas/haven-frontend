@@ -7,7 +7,7 @@ const Index = (props) => {
   return (
     <div>
       <Navbar home/>
-      <div className="flex flex-row items-center justify-end">
+      <div className="flex flex-row items-center justify-end mb-2">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
             <i className="fas fa-key text-10xl text-dark-200" />

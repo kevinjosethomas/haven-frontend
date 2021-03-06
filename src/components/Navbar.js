@@ -5,9 +5,9 @@ import Link from "next/link";
 export const Navbar = ({props, home}) => {
 
   return (
-    <nav className={`flex flex-row items-center justify-between top-0 ${home ? "" : "bg-blue-500"}`}>
+    <nav className={`flex flex-row items-center justify-between ${home ? "" : "bg-blue-500"} top-0`}>
       <div className="flex flex-row items-center justify-start z-10 ml-10">
-        <Link href = "/"><a>
+        <Link href="/"><a>
           <Image
             alt="Haven Logo"
             src="/images/logo-wordmark-white.svg"
@@ -18,15 +18,21 @@ export const Navbar = ({props, home}) => {
         </a></Link>
       </div>
       <div className="flex flex-row items-center justify-end z-10 mr-10">
-        <button className="flex justify-center px-5 py-1.5 bg-gray-300 z-10 rounded mr-4 hover:bg-gray-400 active:bg-gray-200 focus:outline-none">
-          <span className="font-inter font-semibold text-center select-none text-white text-lg">Log In</span>
-          
-        </button>
-        <button className="flex justify-center px-5 py-1.5 bg-blue-350 z-10 rounded mr-4 hover:bg-blue-450 active:bg-blue-300 focus:outline-none">
-          
-          <span className="font-inter font-semibold text-center select-none text-white text-lg">Sign Up</span>
-          <i className="fas fa-angle-right text-lg text-white pl-2"/>
-        </button>
+        <div className="flex flex-row justify-center bg-light-200 rounded z-10 hover:bg-light-300 mr-4 px-5 py-1.5">
+          <Link href="#">
+            <a>
+              <span className="font-inter font-semibold text-center select-none text-white text-lg">Log In</span>
+            </a>
+          </Link>
+        </div>
+        <div className="flex flex-row justify-center bg-blue-400 rounded z-10 hover:bg-blue-500 mr-4 px-5 py-1.5">
+          <Link href="#">
+            <a>
+              <span className="font-inter font-semibold text-center select-none text-white text-lg">Sign Up</span>
+              <i className="fas fa-angle-right text-lg text-white pl-2" />
+            </a>
+          </Link>
+        </div>
       </div>
     </nav>
   )
