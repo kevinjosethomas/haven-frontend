@@ -1,22 +1,35 @@
-import Head from "next/head";
+import Image from "next/image";
 
-import { Default } from "../layouts/default";
+import { Footer } from "../components/Footer";
 
-const Home = (props) => {
+const Index = (props) => {
+
   return (
-    <Default>
-         <Head>
-        <meta name="description" content="ReactJS and NextJS frontend template for my projects, maybe you could use it too!" />
-        <meta name="author" content="TrustedMercury" />
+    <div>
+      <div className="flex flex-row items-center justify-end">
+        <div className="flex flex-col items-center justify-center w-full">
+          <div className="flex flex-col items-start justify-center">
+            <i className="fas fa-key text-10xl text-dark-200" />
+            <span className="max-w-min font-acumin font-bold text-10xl text-dark-200 select-none">Express yourself.</span>
+          </div>
+        </div>
+        <div className="flex flex-row items-center justify-center min-w-max">
+          <Image
+            alt="Super Cool Image"
+            src="/images/landing-illustration.svg"
+            width={880}
+            height={820}
+            layout="intrinsic"
+          />
+        </div>
+        <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400">
 
-        <meta name="title" content="React Next Template" />
-        <meta property="og:title" content="React Next Template" />
-        <meta property="og:description" content="ReactJS and NextJS frontend template for my projects, maybe you could use it too!" />
-        <meta property="twitter:title" content="React Next Template" />
-        <meta property="twitter:description" content="ReactJS and NextJS frontend template for my projects, maybe you could use it too!" />
-      </Head>
-    </Default>
+        </div>
+      </div>
+      <Footer />
+    </div>
   )
+
 }
 
-export default Home;
+export default Index;
