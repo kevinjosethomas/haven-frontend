@@ -1,11 +1,12 @@
 import Image from "next/image";
 
-import { Footer } from "../components/Footer";
+import { Navbar } from "../components/Navbar";
 
 const Index = (props) => {
 
   return (
     <div>
+      <Navbar />
       <div className="flex flex-row items-center justify-end">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
@@ -26,7 +27,6 @@ const Index = (props) => {
 
         </div>
       </div>
-      <Footer />
     </div>
   )
 
