@@ -6,7 +6,7 @@ const Index = (props) => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar home/>
       <div className="flex flex-row items-center justify-end">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
@@ -18,8 +18,8 @@ const Index = (props) => {
           <Image
             alt="Super Cool Image"
             src="/images/landing-illustration.svg"
-            width={880}
-            height={820}
+            width={704}
+            height={656}
             layout="intrinsic"
           />
         </div>
