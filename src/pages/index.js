@@ -18,8 +18,8 @@ const Index = (props) => {
           <Image
             alt="Super Cool Image"
             src="/images/landing-illustration.svg"
-            width={704}
-            height={656}
+            width={880}
+            height={820}
             layout="intrinsic"
           />
         </div>
