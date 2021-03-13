@@ -1,10 +1,9 @@
 import { Layout } from "../layouts/Default";
-import { HomeCard } from "../components/misc/HomeCard";
-import { ValueCards, TargetCards } from "../utility/data/home";
+import { ValueCard } from "../components/index/ValueCard";
+import { TargetCard } from "../components/index/TargetCard";
+import { ValueCards, TargetCards } from "../utility/data";
 
 const Index = (props) => {
-
-  console.log(ValueCards)
 
   return (
     <Layout>
@@ -30,7 +29,7 @@ const Index = (props) => {
       <div className="flex flex-col items-center justify-center w-full h-section bg-dark-100">
         <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
           { ValueCards.map(card => (
-            <HomeCard 
+            <ValueCard 
               icon={card.icon}
               title={card.title}
               content={card.content}
@@ -61,6 +60,18 @@ const Index = (props) => {
           alt="Here's another cool image that shouldn't be missing"
           src="/images/home-social-illustration.svg"
         />
+      </div>
+      <div className="flex flex-col items-center justify-center w-full h-section bg-light-200">
+        <h1 className="mb-5 font-acumin font-bold text-9xl text-gray-800 tracking-tight">For...</h1>
+        <div className="flex flex-row items-center justify-center mt-5 w-full">
+          { TargetCards.map(card => (
+            <TargetCard
+              icon={card.icon}
+              title={card.title}
+              content={card.content}
+            />
+          ))}
+        </div>
       </div>
     </Layout>
   );
