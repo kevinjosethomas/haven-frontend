@@ -7,7 +7,7 @@ export const Layout = props => {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar home={router.pathname === "/"} />
       { props.children }
     </div>
