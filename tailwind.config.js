@@ -22,6 +22,9 @@ module.exports = {
       },
       fontSize: {
         "10xl": ["11rem", "1"]
+      },
+      height: {
+        section: "60rem"
       }
     }
   },
