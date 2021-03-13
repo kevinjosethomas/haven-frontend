@@ -8,9 +8,9 @@
 
 .bg-home {
   z-index: -100;
-  left: -100px;
-  width: 70%;
-  height: 100%;
+  left: -10vw;
+  width: 75vw;
+  height: 110vh;
   transform: skewX(-12deg);
 }
 
