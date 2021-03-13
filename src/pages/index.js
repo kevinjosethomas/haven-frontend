@@ -1,7 +1,10 @@
 import { Layout } from "../layouts/Default";
 import { HomeCard } from "../components/misc/HomeCard";
+import { ValueCards, TargetCards } from "../utility/data/home";
 
 const Index = (props) => {
+
+  console.log(ValueCards)
 
   return (
     <Layout>
@@ -26,36 +29,13 @@ const Index = (props) => {
       </div>
       <div className="flex flex-col items-center justify-center w-full h-section bg-dark-100">
         <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
-          <HomeCard
-            icon="fas fa-id-card"
-            title="Quirky Profiles"
-            content="Create descriptive profiles from a range of customizable themes to express yourself and connect your online presence."
-          />
-          <HomeCard
-            icon="far fa-link"
-            title="Vanity Links"
-            content="Providing free vanity links for your profiles and any websites, blogs or redirects that you want to show on posts and your bio!"
-          />
-          <HomeCard
-            icon="far fa-code-merge"
-            title="Opensource"
-            content="Developed by the community, we’re as transparent as we can be. Get to know everything that’s going on behind the scenes."
-          />
-          <HomeCard
-            icon="fas fa-plug"
-            title="Integrated"
-            content="Connect all your social media accounts in one place to make it easier for people to find you where you want to be found."
-          />
-          <HomeCard
-            icon="fas fa-project-diagram"
-            title="Connected"
-            content="Making it easier to meet other likeminded people from all around the world. Easier to make new friends or get work done!"
-          />
-          <HomeCard
-            icon="fas fa-door-open"
-            title="Inclusive"
-            content="Building a safe community, inclusive of everyone. Active Trust & Safety team, auto moderation and a lot more for your safety!"
-          />
+          { ValueCards.map(card => (
+            <HomeCard 
+              icon={card.icon}
+              title={card.title}
+              content={card.content}
+            />
+          )) }
         </div>
       </div>
       <div className="flex flex-row items-center justify-center w-full h-section bg-light-200">
@@ -73,7 +53,7 @@ const Index = (props) => {
       <div className="flex flex-row items-center justify-center w-full h-section bg-light-100">
         <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
           <h1 className="mb-2 font-acumin font-bold text-10xl text-gray-800 tracking-tight">Custom Links.</h1>
-          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Create short, easily-accessible vanity links for events, profiles, etc.</p>
+          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Create short, easily-accessible vanity links for events, profiles and more!</p>
         </div>
         <img 
           draggable="false"
