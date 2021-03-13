@@ -1,38 +1,63 @@
-import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 
 export const Navbar = ({props, home}) => {
 
   return (
-    <nav className={`flex flex-row items-center justify-between ${home ? "" : "bg-blue-500"} top-0`}>
-      <div className="flex flex-row items-center justify-start z-10 ml-10">
-        <Link href="/"><a>
-          <Image
+    <nav className={`flex flex-row items-center justify-between px-24 py-4 ${home ? "" : "bg-blue-500"}`}>
+      <div className="flex flex-row items-center justify-start">
+        <Link href="/">
+          <img
             alt="Haven Logo"
-            src="/images/logo-wordmark-white.svg"
-            width={219}
-            height={70}
-            layout="intrinsic"
+            src="/images/wordmark-white.svg"
+            className="w-44"
           />
-        </a></Link>
+        </Link>
       </div>
-      <div className="flex flex-row items-center justify-end z-10 mr-10">
-        <div className="flex flex-row justify-center bg-light-200 rounded-hm z-10 hover:bg-light-300 mr-4 px-5 py-1.5">
-          <Link href="#">
-            <a>
-              <span className="font-inter font-semibold text-center select-none text-white text-lg">Log In</span>
-            </a>
-          </Link>
-        </div>
-        <div className="flex flex-row justify-center bg-blue-400 rounded-hm z-10 hover:bg-blue-500 mr-4 px-5 py-1.5">
-          <Link href="#">
-            <a>
-              <span className="font-inter font-semibold text-center select-none text-white text-lg">Sign Up</span>
-              <i className="fas fa-angle-right text-lg text-white pl-2" />
-            </a>
-          </Link>
-        </div>
+      <div className="flex flex-row items-center justify-end">
+        <Link href="/login">
+          <motion.div
+            className="flex flex-row justify-center items-center mr-2 px-5 py-2 w-28 rounded transition duration-300 bg-gray-300 hover:bg-gray-400 cursor-pointer"
+            whileHover="hover"
+          >
+            <span className="font-inter font-semibold text-xl text-white">Login</span>
+            <motion.i
+              className="far fa-angle-right text-lg text-white pl-2"
+              initial="initial"
+              variants={{
+                initial: {
+                  x: 0
+                },
+                hover: {
+                  x: 4,
+                  transition: { duration: 0.4 }
+                }
+              }}
+            />
+          </motion.div>
+        </Link>
+        <Link href="/register">
+          <motion.div
+            className="flex flex-row justify-center items-center ml-2 px-5 py-2 w-36 rounded transition duration-300 bg-blue-400 hover:bg-blue-500 cursor-pointer"
+            whileHover="hover"
+          >
+            <span className="font-inter font-semibold text-xl text-white">Sign Up</span>
+            <motion.i
+              className="far fa-angle-right text-lg text-white pl-2"
+              initial="initial"
+              variants={{
+                initial: {
+                  x: 0
+                },
+                hover: {
+                  x: 4,
+                  transition: { duration: 0.4 }
+                }
+              }}
+            />
+          </motion.div>
+        </Link>
       </div>
     </nav>
   )
