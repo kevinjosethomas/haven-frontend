@@ -16,6 +16,10 @@ module.exports = {
           300: "#06182C"
         }
       },
+      screens: {
+        "xl": "1440px",
+        "2xl": "1920px"
+      },
       fontSize: {
         "10xl": ["11rem", "1"]
       }
