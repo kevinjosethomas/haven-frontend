@@ -8,7 +8,8 @@ module.exports = {
         light: {
           100: "#EBEBEB",
           200: "#CECECE",
-          300: "#B0B0B0"
+          300: "#B4B4B4",
+          400: "#9E9E9E"
         },
         dark: {
           100: "#0F2A45",
@@ -23,8 +24,13 @@ module.exports = {
       fontSize: {
         "10xl": ["11rem", "1"]
       },
+      width: {
+        "card-target-large": "28rem"
+      },
       height: {
-        section: "60rem"
+        "section": "60rem",
+        "card-target": "30rem",
+        "card-target-large": "36rem"
       }
     }
   },
