@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+import { NavbarButtonHover } from "../utility/Animations";
+
 
 export const Navbar = ({props, home}) => {
 
@@ -25,15 +27,7 @@ export const Navbar = ({props, home}) => {
             <motion.i
               className="far fa-angle-right text-lg text-white pl-2"
               initial="initial"
-              variants={{
-                initial: {
-                  x: 0
-                },
-                hover: {
-                  x: 4,
-                  transition: { duration: 0.4 }
-                }
-              }}
+              variants={NavbarButtonHover}
             />
           </motion.div>
         </Link>
@@ -46,15 +40,7 @@ export const Navbar = ({props, home}) => {
             <motion.i
               className="far fa-angle-right text-lg text-white pl-2"
               initial="initial"
-              variants={{
-                initial: {
-                  x: 0
-                },
-                hover: {
-                  x: 4,
-                  transition: { duration: 0.4 }
-                }
-              }}
+              variants={NavbarButtonHover}
             />
           </motion.div>
         </Link>
