@@ -15,12 +15,9 @@ const Index = (props) => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center min-w-max">
-          <Image
-            alt="Super Cool Image"
+          <img
+            alt="Really cool header image... why is it not here"
             src="/images/landing-illustration.svg"
-            width={880}
-            height={820}
-            layout="intrinsic"
           />
         </div>
         <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400">
