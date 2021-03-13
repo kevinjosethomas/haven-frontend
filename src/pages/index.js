@@ -1,12 +1,9 @@
-import Image from "next/image";
-
-import { Navbar } from "../components/Navbar";
+import { Layout } from "../layouts/Default";
 
 const Index = (props) => {
 
   return (
-    <div>
-      <Navbar home/>
+    <Layout>
       <div className="flex flex-row items-center justify-end mb-2">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
@@ -20,11 +17,9 @@ const Index = (props) => {
             src="/images/landing-illustration.svg"
           />
         </div>
-        <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400">
-
-        </div>
+        <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400" />
       </div>
-    </div>
+    </Layout>
   )
 
 }
