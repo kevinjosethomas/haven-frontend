@@ -31,3 +31,96 @@ export const ValueCards =  [
     content: "Building a safe community, inclusive of everyone. Active Trust & Safety team, auto moderation and a lot more for your safety!"
   }  
 ];
+
+export const TargetCards = [
+  { 
+    icon: "fas fa-pencil-paintbrush",
+    title: "Creators",
+    content: [
+      {
+        decoration: null,
+        text: "Share your work online"
+      },
+      {
+        decoration: null,
+        text: "Grow your follower base"
+      },
+      {
+        decoration: null,
+        text: "Earn from your content"
+      },
+      {
+        decoration: null,
+        text: "Meet other creators"
+      },
+      {
+        decoration: null,
+        text: "Contribute to projects"
+      },
+      {
+        decoration: null,
+        text: "Get motivated ( ◕▿◕ )"
+      }
+    ]
+  },
+  { 
+    icon: "fas fa-badge-check",
+    title: "Influencers",
+    content: [
+      {
+        decoration: null,
+        text: "Connect with your fans"
+      },
+      {
+        decoration: null,
+        text: "Share to your community"
+      },
+      {
+        decoration: null,
+        text: "Earn from your profile"
+      },
+      {
+        decoration: null,
+        text: "Host virtual events"
+      },
+      {
+        decoration: null,
+        text: "Grow your influence"
+      },
+      {
+        decoration: "line-through",
+        text: "Access your fans’ data"
+      }
+    ]
+  },
+  { 
+    icon: "fas fa-users",
+    title: "Everyone",
+    content: [
+      {
+        decoration: null,
+        text: "Meet likeminded people"
+      },
+      {
+        decoration: null,
+        text: "Connect with your friends"
+      },
+      {
+        decoration: null,
+        text: "Share cool experiences"
+      },
+      {
+        decoration: null,
+        text: "Find inspiration, online"
+      },
+      {
+        decoration: null,
+        text: "Follow your role models"
+      },
+      {
+        decoration: null,
+        text: "{ error : no text provided }"
+      }
+    ]
+  }
+]
