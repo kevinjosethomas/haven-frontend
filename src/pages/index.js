@@ -16,7 +16,7 @@ const Index = (props) => {
           <img
             draggable="false"
             alt="Really cool header image... why is it not here"
-            src="/images/landing-illustration.svg"
+            src="/images/home-landing-illustration.svg"
           />
         </div>
         <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400" />
@@ -24,8 +24,8 @@ const Index = (props) => {
       <div className="flex flex-col items-center justify-center pt-5 py-7 w-full bg-light-100">
         <h2 className="font-acumin font-bold text-5xl text-gray-700">community developed; your data doesn't go for dimes</h2>
       </div>
-      <div className="flex flex-col items-center justify-center w-full bg-dark-100">
-        <div className="flex flex-row items-center justify-center flex-wrap py-20 max-w-7xl">
+      <div className="flex flex-col items-center justify-center py-20 w-full bg-dark-100">
+        <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
           <HomeCard
             icon="fas fa-id-card"
             title="Quirky Profiles"
@@ -57,6 +57,30 @@ const Index = (props) => {
             content="Building a safe community, inclusive of everyone. Active Trust & Safety team, auto moderation and a lot more for your safety!"
           />
         </div>
+      </div>
+      <div className="flex flex-row items-center justify-center py-20 w-full bg-light-200">
+        <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
+          <h1 className="mb-2 font-acumin font-bold text-10xl text-gray-800 tracking-tight">Descriptive Profiles.</h1>
+          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Show yourself the way you want to be seen, all with one short link.</p>
+        </div>
+        <img 
+          draggable="false"
+          className="ml-10"
+          alt="Another cool image that shouldn't be missing"
+          src="/images/home-profile-illustration.svg"
+        />
+      </div>
+      <div className="flex flex-row items-center justify-center py-20 w-full bg-light-100">
+        <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
+          <h1 className="mb-2 font-acumin font-bold text-10xl text-gray-800 tracking-tight">Concise Vanity URLs.</h1>
+          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Create short, easily-accessible vanity links for events, profiles, etc.</p>
+        </div>
+        <img 
+          draggable="false"
+          className="ml-10"
+          alt="Here's another cool image that shouldn't be missing"
+          src="/images/home-social-illustration.svg"
+        />
       </div>
     </Layout>
   );
