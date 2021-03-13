@@ -17,13 +17,7 @@ module.exports = {
         }
       },
       fontSize: {
-        "10xl": ["10rem", "1"]
-      },
-      borderRadius: {
-        'none': '0',
-        'hs': '3px',
-        'hm': '6px',
-        'hl': '9px',
+        "10xl": ["11rem", "1"]
       }
     }
   },
