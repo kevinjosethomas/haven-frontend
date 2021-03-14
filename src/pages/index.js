@@ -68,6 +68,7 @@ const Index = (props) => {
             <TargetCard
               icon={card.icon}
               title={card.title}
+              color={card.color}
               content={card.content}
             />
           ))}
