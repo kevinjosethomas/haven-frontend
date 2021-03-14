@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import { NavbarButtonHover } from "../utility/Animations";
+import { NavbarButtonHover } from "../utility/animations/components";
 
 
 export const Navbar = ({props, home}) => {
