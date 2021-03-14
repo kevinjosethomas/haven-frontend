@@ -31,6 +31,9 @@ module.exports = {
         "section": "60rem",
         "card-target": "30rem",
         "card-target-large": "36rem"
+      },
+      scale: {
+        "103": "1.03"
       }
     }
   },
