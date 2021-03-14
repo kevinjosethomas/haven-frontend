@@ -66,7 +66,7 @@ export const TargetCards = [
   },
   { 
     icon: "fad fa-badge-check",
-    color: "text-pink-700",
+    color: "text-indigo-700",
     title: "Influencers",
     content: [
       {
@@ -97,7 +97,7 @@ export const TargetCards = [
   },
   { 
     icon: "fad fa-users",
-    color: "text-green-700",
+    color: "text-yellow-600",
     title: "Everyone",
     content: [
       {
