@@ -8,3 +8,10 @@ export const NavbarButtonHover = {
     transition: { duration: 0.4 }
   }
 }
+
+export const TargetCardHover = {
+  hover: {
+    scale: 1.2,
+    transition: { duration: 0.2 }
+  }
+}
