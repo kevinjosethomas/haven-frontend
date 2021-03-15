@@ -35,7 +35,7 @@ export const ValueCards =  [
 export const TargetCards = [
   { 
     icon: "fad fa-pencil-paintbrush",
-    color: "text-green-700",
+    color: "text-green-600",
     title: "Creators",
     content: [
       {
@@ -66,7 +66,7 @@ export const TargetCards = [
   },
   { 
     icon: "fad fa-badge-check",
-    color: "text-indigo-700",
+    color: "text-indigo-600",
     title: "Influencers",
     content: [
       {
