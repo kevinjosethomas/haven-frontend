@@ -19,8 +19,8 @@
 }
 
 .TargetCard {
-  box-shadow: 5px 5px 30px #9b9b9b,
-              -5px -5px 30px #d1d1d1;
+  box-shadow: 10px 10px 0px #a8a8a8,
+              -10px -10px 10px #d1d1d1;
 }
 
 /* Fonts */
