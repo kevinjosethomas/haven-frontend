@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components/global/Navbar";
 
 export const Layout = props => {
 
