@@ -1,48 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
 var textToRem = {}; textToRem["xs"] = 0.75; textToRem["sm"] = 0.875; textToRem["base"] = 1; textToRem["lg"] = 1.125; textToRem["xl"] = 1.25; textToRem["2xl"] = 1.5; textToRem["3xl"] = 1.875; textToRem["4xl"] = 2.25; textToRem["5xl"] = 3; textToRem["6xl"] = 3.75; textToRem["7xl"] = 4.5; textToRem["8xl"] = 6; textToRem["9xl"] = 8; textToRem["10xl"] = 10;
 var paddingSizes = [.125, .25, .375, .5, .625, .75, .875, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.5, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 24];
 
-// ----- Logo ----- 
-// Usage:
-// <Logo type="mark | word | wordmark" color="white | black" width={num} [href="link"] />
-
-export const Logo = (props) => {
-  if(props == undefined) return (<span>Haven Logo here! - This component needs to be set up</span>);
-  let type, color, width, height;
-  if(props.type == "mark" || props.type == "word" || props.type == "wordmark") type = props.type; else type = "mark";
-  if(props.color == "white" || props.color == "black") color = props.color; else color = "black";
-  if(props.size != undefined) width = (props.width); else width = 150;
-  if(type == "mark"){
-    height = width
-  } else if(type == "word"){
-    height = (width * (182 / 678))
-  } else if(type == "wordmark"){
-    height = (width * (227 / 896))
-  }
-  let image = (
-            <Image
-              alt="Haven Logo"
-              src={`/images/logos/${type}-${color}.svg`}
-              width={width}
-              height={height}
-              layout="intrinsic"
-              draggable="false"
-            />
-          )
-  if(props.href != undefined) {
-    image = (<Link href={props.href}><a draggable="false">{image}</a></Link>)
-  }
-  return image;
-}
-
-// ----- Buttons -----
-// Usage:
-// <Button href="link" type="home | ..." color="tailwind color" [hoverColor="tailwind color"] textColor="tailwind color" [hovertextColor="tailwind color"] textsize="<tailwind text size>" [font="font"] [texttype="<tailwind text type>"] [rounded="none | hs | hl" (Defualts to hm)] [px="num"] [py="num"] [extra="tailwind styles"]>
-//  <span>text <i className="fas fa-angle-right" /></span>
-// </Button
 
 export const Button = (props) => {
   if(props == undefined) return (<span>Button here! - This component needs to be set up</span>);
