@@ -74,6 +74,18 @@ const Index = (props) => {
           ))}
         </div>
       </div>
+      <div className="flex flex-col items-center justify-center w-full h-sm-section text-center bg-dark-100">
+        <div className="flex flex-row items-center justify-center mb-2">
+          <i className="fas fa-rocket-launch mr-2 text-9xl text-gray-300" />
+          <span className="ml-2 font-acumin font-bold text-9xl text-gray-300">Get Started</span>
+        </div>
+        <p
+          className="my-3 max-w-3xl font-inter font-medium text-4xl text-gray-400"
+        >Create your profile to start meeting new people and showing off your work!</p>
+        <div className="flex flex-col items-center justify-center mt-5 py-5 px-8 bg-blue-500 rounded cursor-pointer transform transition duration-500 hover:scale-105">
+          <span className="font-inter font-medium text-3xl text-gray-100">Join Haven</span>
+        </div>
+      </div>
     </Layout>
   );
 
