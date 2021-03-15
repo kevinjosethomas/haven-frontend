@@ -32,6 +32,14 @@ module.exports = {
         "card-target": "30rem",
         "card-target-large": "36rem"
       },
+      borderRadius: {
+        'none': '0',
+        'hs': '3px',
+        'hm': '6px',
+        'hl': '9px',
+        'hxl': '12px',
+        'h2xl': '15px',
+        'h3xl': '18px',
       scale: {
         "103": "1.03"
       }
