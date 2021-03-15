@@ -8,7 +8,8 @@ module.exports = {
         light: {
           100: "#EBEBEB",
           200: "#CECECE",
-          300: "#B0B0B0"
+          300: "#B4B4B4",
+          400: "#9E9E9E"
         },
         dark: {
           100: "#0F2A45",
@@ -16,8 +17,20 @@ module.exports = {
           300: "#06182C"
         }
       },
+      screens: {
+        "xl": "1440px",
+        "2xl": "1920px"
+      },
       fontSize: {
-        "10xl": ["10rem", "1"]
+        "10xl": ["11rem", "1"]
+      },
+      width: {
+        "card-target-large": "28rem"
+      },
+      height: {
+        "section": "60rem",
+        "card-target": "30rem",
+        "card-target-large": "36rem"
       },
       borderRadius: {
         'none': '0',
@@ -27,6 +40,8 @@ module.exports = {
         'hxl': '12px',
         'h2xl': '15px',
         'h3xl': '18px',
+      scale: {
+        "103": "1.03"
       }
     }
   },
