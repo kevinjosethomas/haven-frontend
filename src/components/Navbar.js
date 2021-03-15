@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 
 import { NavbarButtonHover } from "../utility/animations/components";
 
+import {Logo, Button} from "../components/Utility";
+
 
 export const Navbar = ({props, home}) => {
-
   return (
     <nav className={`flex flex-row items-center justify-between px-24 py-4 ${home ? "" : "bg-blue-500"}`}>
       <div className="flex flex-row items-center justify-start">
