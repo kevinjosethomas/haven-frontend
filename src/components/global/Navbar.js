@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+import { Logo } from "./Logo";
 import { NavbarButtonHover } from "../../utility/animations/global";
 
 
@@ -8,13 +9,12 @@ export const Navbar = ({props, home}) => {
   return (
     <nav className={`flex flex-row items-center justify-between px-24 py-4 ${home ? "" : "bg-blue-500"}`}>
       <div className="flex flex-row items-center justify-start">
-        <Link href="/">
-          <img
-            alt="Haven Logo"
-            src="/images/wordmark-white.svg"
-            className="w-44"
-          />
-        </Link>
+        <Logo
+          color="white"
+          type="wordmark"
+          width="w-44"
+          href="/"
+        />
       </div>
       <div className="flex flex-row items-center justify-end">
         <Link href="/login">
