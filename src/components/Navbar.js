@@ -21,15 +21,3 @@ export const Navbar = ({props, home}) => {
     </nav>
   )
 }
-
-/*
-        
-        <div className="flex flex-row justify-center bg-blue-400 rounded-hm z-10 hover:bg-blue-500 mr-4 px-5 py-1.5">
-          <Link href="#">
-            <a>
-              <span className="font-inter font-semibold text-center select-none text-white text-lg">Sign Up</span>
-              <i className="fas fa-angle-right text-lg text-white pl-2" />
-            </a>
-          </Link>
-        </div>
-*/
