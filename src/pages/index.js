@@ -4,7 +4,7 @@ import { ValueCards, TargetCards } from "../utility/data";
 import { ValueCard } from "../components/index/ValueCard";
 import { TargetCard } from "../components/index/TargetCard";
 
-const Index = (props) => {
+const Index = props => {
 
   return (
     <Layout>
