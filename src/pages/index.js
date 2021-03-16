@@ -32,6 +32,7 @@ const Index = props => {
         <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
           { ValueCards.map(card => (
             <ValueCard 
+              key={card.title}
               icon={card.icon}
               title={card.title}
               content={card.content}
@@ -68,6 +69,7 @@ const Index = props => {
         <div className="flex flex-row items-center justify-center mt-5 w-full">
           { TargetCards.map(card => (
             <TargetCard
+              key={card.title}
               icon={card.icon}
               title={card.title}
               color={card.color}
