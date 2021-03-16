@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Logo } from "./Logo";
 import { NavbarButtonHover } from "../../utility/animations/global";
 
-export const Navbar = (props, home) => {
+export const Navbar = ({ props, home }) => {
 
   return (
     <nav className={`flex flex-row items-center justify-between px-24 py-4 ${home ? "" : "bg-blue-500"}`}>
