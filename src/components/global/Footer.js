@@ -9,6 +9,7 @@ export const Footer = props => {
       <div className="flex flex-row items-center justify-center space-x-12">
         { Socials.map(item => (
           <Social
+            key={item.icon}
             icon={item.icon}
             href={item.href}
           />
@@ -17,6 +18,7 @@ export const Footer = props => {
       <div className="flex flex-row items-center justify-center space-x-6">
         { Links.map(item => (
           <Label
+            key={item.label}
             label={item.label}
             href={item.href}
           />
