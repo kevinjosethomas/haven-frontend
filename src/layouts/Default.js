@@ -7,8 +7,8 @@ export const Layout = props => {
   const router = useRouter();
 
   return (
-    <div className="overflow-x-hidden">
-      <Navbar home={router.pathname === "/" || props.hideBg} />
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
+      <Navbar home={router.pathname == "/"} />
       { props.children }
     </div>
   )
