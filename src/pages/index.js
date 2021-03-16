@@ -8,16 +8,17 @@ const Index = props => {
 
   return (
     <Layout>
-      <div className="flex flex-row items-center justify-end pb-10">
+      <div className="flex flex-row items-center justify-end xl:py-14 2xl:pb-10">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
-            <i className="fas fa-key text-10xl text-dark-200" />
-            <h1 className="max-w-min font-acumin font-bold text-10xl text-dark-200">Express yourself.</h1>
+            <i className="fas fa-key xl:text-10xl 2xl:text-11xl text-dark-200" />
+            <h1 className="max-w-min font-acumin font-bold xl:text-10xl 2xl:text-11xl text-dark-200">Express yourself.</h1>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center min-w-max">
+        <div className="flex flex-row items-center justify-center 2xl:min-w-max">
           <img
             draggable="false"
+            className="xl:w-xl-illustration 2xl:w-full"
             alt="Really cool header image... why is it not here"
             src="/images/home-landing-illustration.svg"
           />
@@ -40,8 +41,8 @@ const Index = props => {
       </div>
       <div className="flex flex-row items-center justify-center w-full h-section bg-light-200">
         <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
-          <h1 className="mb-2 font-acumin font-bold text-10xl text-gray-800 tracking-tight">Descriptive Profiles.</h1>
-          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Show yourself the way you want to be seen, all with one short link.</p>
+          <h1 className="mb-2 font-acumin font-bold xl:text-9xl 2xl:text-11xl text-gray-800 tracking-tight">Descriptive Profiles.</h1>
+          <p className="mt-2 max-w-3xl font-inter font-medium xl:text-3xl 2xl:text-4xl text-gray-700">Show yourself the way you want to be seen, all with one short link.</p>
         </div>
         <img 
           draggable="false"
@@ -52,7 +53,7 @@ const Index = props => {
       </div>
       <div className="flex flex-row items-center justify-center w-full h-section bg-light-100">
         <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
-          <h1 className="mb-2 font-acumin font-bold text-10xl text-gray-800 tracking-tight">Custom Links.</h1>
+          <h1 className="mb-2 font-acumin font-bold text-11xl text-gray-800 tracking-tight">Custom Links.</h1>
           <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Create short, easily-accessible vanity links for events, profiles and more!</p>
         </div>
         <img 
