@@ -40,7 +40,13 @@ module.exports = {
         'hl': '9px',
         'hxl': '12px',
         'h2xl': '15px',
-        'h3xl': '18px'
+        'h3xl': '18px',       
+        'h4xl': '21px',
+        'h5xl': '24px',
+        'h6xl': '27px',
+        'h4xl': '30px',
+        'h5xl': '33px',
+        'h6xl': '36px'
       },
       scale: {
         "103": "1.03"

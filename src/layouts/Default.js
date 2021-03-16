@@ -8,7 +8,7 @@ export const Layout = props => {
 
   return (
     <div className="overflow-x-hidden">
-      <Navbar home={router.pathname === "/"} />
+      <Navbar home={router.pathname === "/" || props.hideBg} />
       { props.children }
     </div>
   )
