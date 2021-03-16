@@ -28,6 +28,7 @@ module.exports = {
         "card-target-large": "28rem"
       },
       height: {
+        "footer": "25rem",
         "sm-section": "35rem",
         "section": "60rem",
         "card-target": "30rem",

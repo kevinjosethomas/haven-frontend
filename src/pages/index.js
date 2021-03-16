@@ -1,9 +1,10 @@
 import { Layout } from "../layouts/Default";
+import { Footer } from "../components/global/Footer";
+import { ValueCards, TargetCards } from "../utility/data";
 import { ValueCard } from "../components/index/ValueCard";
 import { TargetCard } from "../components/index/TargetCard";
-import { ValueCards, TargetCards } from "../utility/data";
 
-const Index = (props) => {
+const Index = props => {
 
   return (
     <Layout>
@@ -86,6 +87,7 @@ const Index = (props) => {
           <span className="font-inter font-medium text-3xl text-gray-100">Join Haven</span>
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 
