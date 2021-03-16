@@ -9,7 +9,7 @@ export const TargetCard = props => {
       </div>
       <div className="flex flex-col items-start justify-center px-10 w-full h-3/4 bg-light-300 bg-opacity-20 space-y-5 rounded-b">
         { props.content.map(item => (
-          <div className="font-inter font-medium text-2xl text-gray-500">
+          <div key={item.text} className="font-inter font-medium text-2xl text-gray-500">
             <span className="text-gray-700">•</span> <span className={item.decoration}>{ item.text }</span>
           </div>
         ))}
