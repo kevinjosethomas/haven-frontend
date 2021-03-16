@@ -22,10 +22,12 @@ module.exports = {
         "2xl": "1920px"
       },
       fontSize: {
-        "10xl": ["11rem", "1"]
+        "10xl": ["10rem", "1"],
+        "11xl": ["11rem", "1"]
       },
       width: {
-        "card-target-large": "28rem"
+        "card-target-large": "28rem",
+        "xl-illustration": "80rem"
       },
       height: {
         "footer": "25rem",
