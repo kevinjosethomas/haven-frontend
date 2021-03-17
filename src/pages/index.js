@@ -55,7 +55,7 @@ const Index = props => {
       />
       <div className="flex flex-col items-center justify-center w-full h-section bg-light-200">
         <h1 className="mb-5 font-acumin font-bold text-9xl text-gray-800 tracking-tight">For...</h1>
-        <div className="flex flex-row items-center justify-center mt-5 w-full">
+        <div className="flex flex-row items-center justify-center mt-5 space-x-12 w-full">
           { TargetCards.map(card => (
             <TargetCard
               key={card.title}
