@@ -3,6 +3,7 @@ import { Footer } from "../components/global/Footer";
 import { ValueCards, TargetCards } from "../utility/data";
 import { ValueCard } from "../components/index/ValueCard";
 import { TargetCard } from "../components/index/TargetCard";
+import { FeatureSection } from "../layouts/sections/Feature";
 
 const Index = props => {
 
@@ -40,30 +41,18 @@ const Index = props => {
           )) }
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center w-full h-section bg-light-200">
-        <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
-          <h1 className="mb-2 font-acumin font-bold xl:text-9xl 2xl:text-11xl text-gray-800 tracking-tight">Descriptive Profiles.</h1>
-          <p className="mt-2 max-w-3xl font-inter font-medium xl:text-3xl 2xl:text-4xl text-gray-700">Show yourself the way you want to be seen, all with one short link.</p>
-        </div>
-        <img 
-          draggable="false"
-          className="ml-10"
-          alt="Another cool image that shouldn't be missing"
-          src="/images/home-profile-illustration.svg"
-        />
-      </div>
-      <div className="flex flex-row items-center justify-center w-full h-section bg-light-100">
-        <div className="flex flex-col items-start justify-center mr-10 max-w-5xl">
-          <h1 className="mb-2 font-acumin font-bold text-11xl text-gray-800 tracking-tight">Custom Links.</h1>
-          <p className="mt-2 max-w-3xl font-inter font-medium text-4xl text-gray-700">Create short, easily-accessible vanity links for events, profiles and more!</p>
-        </div>
-        <img 
-          draggable="false"
-          className="ml-10"
-          alt="Here's another cool image that shouldn't be missing"
-          src="/images/home-social-illustration.svg"
-        />
-      </div>
+      <FeatureSection
+        title="Descriptive Profiles."
+        description="Show yourself the way you want to be seen, all with one short link."
+        image="/images/home-profile-illustration.svg"
+        background="bg-light-200"
+      />
+      <FeatureSection
+        title="Custom Links."
+        description="Create short, easily-accessible vanity links for events, profiles and more!"
+        image="/images/home-social-illustration.svg"
+        background="bg-light-100"
+      />
       <div className="flex flex-col items-center justify-center w-full h-section bg-light-200">
         <h1 className="mb-5 font-acumin font-bold text-9xl text-gray-800 tracking-tight">For...</h1>
         <div className="flex flex-row items-center justify-center mt-5 w-full">
