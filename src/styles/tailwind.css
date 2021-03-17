@@ -10,12 +10,8 @@
   z-index: -100;
   left: -10vw;
   width: 75vw;
-  height: 110vh;
+  height: 120vh;
   transform: skewX(-12deg);
-}
-
-.hbg {
-  z-index: -100;
 }
 
 .fad {
@@ -23,8 +19,7 @@
 }
 
 .TargetCard {
-  box-shadow: 10px 10px 0px #a8a8a8,
-              -10px -10px 10px #d1d1d1;
+  box-shadow: 10px 10px 0px #a8a8a8, -10px -10px 10px #d1d1d1;
 }
 
 /* Fonts */
