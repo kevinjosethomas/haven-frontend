@@ -31,25 +31,12 @@ module.exports = {
       },
       height: {
         "footer": "25rem",
-        "sm-section": "35rem",
         "section": "60rem",
+        "mini-section": "35rem",
+        "section-lg": "40rem",
+        "section-lg-alt": "50rem",
         "card-target": "30rem",
         "card-target-large": "36rem"
-      },
-      borderRadius: {
-        'none': '0',
-        'hs': '3px',
-        'hm': '6px',
-        'hl': '9px',
-        'hxl': '12px',
-        'h2xl': '15px',
-        'h3xl': '18px',       
-        'h4xl': '21px',
-        'h5xl': '24px',
-        'h6xl': '27px',
-        'h4xl': '30px',
-        'h5xl': '33px',
-        'h6xl': '36px'
       },
       scale: {
         "103": "1.03"
