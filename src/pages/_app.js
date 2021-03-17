@@ -4,6 +4,17 @@ import { Fragment } from "react";
 import "../styles/tailwind.css";
 
 function App({ Component, pageProps }) {
+
+  console.log(`
+  __   __  _______  __   __  _______  __    _ 
+  |  | |  ||   _   ||  | |  ||       ||  |  | |
+  |  |_|  ||  |_|  ||  |_|  ||    ___||   |_| |
+  |       ||       ||       ||   |___ |       |
+  |       ||       ||       ||    ___||  _    |
+  |   _   ||   _   | |     | |   |___ | | |   |
+  |__| |__||__| |__|  |___|  |_______||_|  |__|
+  `)
+
   return (
     <Fragment>
       <Head>
