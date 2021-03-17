@@ -9,11 +9,11 @@ const Index = props => {
 
   return (
     <Layout>
-      <div className="flex flex-row items-center justify-end xl:py-14 2xl:pb-10">
+      <div className="flex flex-row items-center justify-end lg:py-10 xl:py-14 2xl:pb-10">
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col items-start justify-center">
-            <i className="fas fa-key xl:text-10xl 2xl:text-11xl text-dark-200" />
-            <h1 className="max-w-min font-acumin font-bold xl:text-10xl 2xl:text-11xl text-dark-200">Express yourself.</h1>
+            <i className="fas fa-key lg:text-9xl xl:text-10xl 2xl:text-11xl text-dark-200" />
+            <h1 className="max-w-min font-acumin font-bold lg:text-9xl xl:text-10xl 2xl:text-11xl text-dark-200">Express yourself.</h1>
           </div>
         </div>
         <div className="flex flex-row items-center justify-center 2xl:min-w-max">
@@ -27,9 +27,9 @@ const Index = props => {
         <div className="bg-home absolute inset-0 bg-gradient-to-tr from-blue-500 to-blue-400" />
       </div>
       <div className="flex flex-col items-center justify-center pt-5 py-7 w-full bg-light-100">
-        <h2 className="font-acumin font-semibold text-5xl text-gray-700">community developed; your data doesn't go for dimes</h2>
+        <h2 className="font-acumin font-semibold lg:text-4xl xl:text-5xl text-gray-700">community developed; your data doesn't go for dimes</h2>
       </div>
-      <div className="flex flex-col items-center justify-center w-full h-section bg-dark-100">
+      <div className="flex flex-col items-center justify-center w-full h-section-lg-alt xl:h-section bg-dark-100">
         <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
           { ValueCards.map(card => (
             <ValueCard 
@@ -67,7 +67,7 @@ const Index = props => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full h-sm-section text-center bg-dark-100">
+      <div className="flex flex-col items-center justify-center w-full h-mini-section text-center bg-dark-100">
         <div className="flex flex-row items-center justify-center mb-2">
           <i className="fas fa-rocket-launch mr-2 text-9xl text-gray-300" />
           <span className="ml-2 font-acumin font-bold text-9xl text-gray-300">Get Started</span>
