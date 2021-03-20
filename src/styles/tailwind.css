@@ -1,23 +1,47 @@
-
 /* TailwindCSS */
 
 /* purgecss start ignore */
-@tailwind  base;
-@tailwind  components;
-@tailwind  utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* purgecss end ignore */
 
+.bg-home {
+  z-index: -100;
+  left: -10vw;
+  width: 75vw;
+  height: 120vh;
+  transform: skewX(-12deg);
+}
+
+.bg-home {
+  z-index: -100;
+  left: -20vw;
+  width: 85vw;
+  height: 120vh;
+  transform: skewX(-12deg);
+}
+
+@media (min-width: 1024) {
+  .bg-home {
+    left: -10vw;
+  }
+}
+
+.fad {
+  --fa-secondary-opacity: 0.6;
+}
+
+.TargetCard {
+  box-shadow: 10px 10px 0px #a8a8a8, -10px -10px 10px #d1d1d1;
+}
 
 /* Fonts */
 
 .font-inter {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-.font-roboto {
-  font-family: 'Roboto', sans-serif;
-}
-
-.font-proxima {
-  font-family: "proxima-soft";
+.font-acumin {
+  font-family: "acumin-pro", sans-serif;
 }
