@@ -25,7 +25,7 @@ export const Footer = props => {
         )) }
       </div>
       <p
-        className="font-inter font-semibold text-2xl xl:text-3xl text-gray-500"
+        className="font-inter font-semibold text-xl lg:text-2xl xl:text-3xl text-gray-500"
       >
         developed by {" "}
         <a
@@ -48,10 +48,10 @@ export const Social = props => {
 
   return (
     <a
-      target="_blank"   
+      target="_blank"
       href={props.href}
     >
-      <i className={`${props.icon} text-4xl xl:text-5xl text-gray-500 hover:text-gray-600 transition duration-300`} />
+      <i className={`${props.icon} text-3xl lg:text-4xl xl:text-5xl text-gray-500 hover:text-gray-600 transition duration-300`} />
     </a>
   );
 
@@ -63,7 +63,7 @@ export const Label = props => {
     <Link
       href={props.href}
     >
-      <a className="font-inter font-bold text-2xl xl:text-3xl text-gray-500 hover:text-gray-600 transition duration-300">{props.label}</a>
+      <a className="font-inter font-bold text-xl lg:text-2xl xl:text-3xl text-gray-500 hover:text-gray-600 transition duration-300">{props.label}</a>
     </Link>
   );
 
