@@ -14,9 +14,17 @@
   transform: skewX(-12deg);
 }
 
-@media (min-width: 768px) {
+.bg-home {
+  z-index: -100;
+  left: -20vw;
+  width: 85vw;
+  height: 120vh;
+  transform: skewX(-12deg);
+}
+
+@media (min-width: 1024) {
   .bg-home {
-    left: -20vw;
+    left: -10vw;
   }
 }
 
