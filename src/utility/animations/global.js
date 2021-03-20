@@ -1,4 +1,11 @@
 
+export const BannerSlide = {
+  exit: {
+    height: 0,
+    transition: { duration: 0.5 }
+  }
+}
+
 export const NavbarButtonHover = {
   initial: {
     x: 0
