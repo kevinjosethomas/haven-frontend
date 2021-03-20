@@ -14,6 +14,12 @@
   transform: skewX(-12deg);
 }
 
+@media (min-width: 768px) {
+  .bg-home {
+    left: -20vw;
+  }
+}
+
 .fad {
   --fa-secondary-opacity: 0.6;
 }
