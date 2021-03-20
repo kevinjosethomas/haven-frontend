@@ -8,9 +8,9 @@ export const TargetCard = props => {
         <i className={`${props.icon} mr-1 text-2xl lg:text-3xl xl:text-4xl 3xl:text-5xl ${props.color}`} />
         <h1 className="ml-1 font-acumin font-semibold text-2xl lg:text-3xl xl:text-4xl 3xl:text-5xl text-gray-700">{ props.title }</h1>
       </div>
-      <div className="flex flex-col items-start justify-center px-5 lg:px-10 w-full h-3/4 bg-light-300 bg-opacity-20 space-y-5 rounded-b">
+      <div className="flex flex-col items-start justify-center px-5 lg:px-6 xl:px-10 w-full h-3/4 bg-light-300 bg-opacity-20 space-y-5 lg:space-y-3 xl:space-y-5 rounded-b">
         { props.content.map(item => (
-          <div key={item.text} className="font-inter font-medium text-md md:text-xs lg:text-md xl:text-xl 3xl:text-2xl text-gray-500">
+          <div key={item.text} className="font-inter font-medium text-md md:text-xs lg:text-lg xl:text-xl 3xl:text-2xl text-gray-500">
             <span className="text-gray-700">•</span> <span className={item.decoration}>{ item.text }</span>
           </div>
         ))}
