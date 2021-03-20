@@ -1,8 +1,17 @@
+import { motion } from "framer-motion";
+
+import { BannerSlide } from "../../utility/animations/global";
 
 export const Banner = props => {
   
   return (
-    <div className="flex flex-row items-center justify-between px-10 md:px-24 xl:px-28 2xl:px-32 py-6 w-full bg-blue-500">
+    <motion.div
+      className="flex flex-row items-center justify-between px-10 md:px-24 xl:px-28 2xl:px-32 h-24 w-full overflow-hidden bg-blue-500"
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      variants={BannerSlide}
+    >
       <div className="flex flex-row items-center justify-start">
         <div className="flex flex-col items-center justify-center p-3 mr-2 bg-blue-600 rounded">
           <i className={`${props.icon} text-2xl`} />
@@ -19,11 +28,14 @@ export const Banner = props => {
         >
           <p className="font-inter font-semibold text-lg text-blue-500">{ props.label }</p>
         </a>
-        <div className="flex flex-col items-center justify-center ml-2 py-2 px-4 transition duration-300 hover:bg-blue-600 rounded cursor-pointer">
+        <div
+          className="flex flex-col items-center justify-center ml-2 py-2 px-4 transition duration-300 hover:bg-blue-600 rounded cursor-pointer"
+          onClick={() => props.setBannerStatus(false)}
+        >
           <i className="far fa-times text-2xl text-gray-100" />
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 
 }
