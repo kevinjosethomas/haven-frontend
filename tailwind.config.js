@@ -18,15 +18,16 @@ module.exports = {
         }
       },
       screens: {
-        "xl": "1440px",
-        "2xl": "1920px"
+        "3xl": "1920px"
       },
       fontSize: {
         "10xl": ["10rem", "1"],
         "11xl": ["11rem", "1"]
       },
       width: {
-        "card-target-large": "28rem",
+        "card-target": "28rem",
+        "card-target-2xl": "22rem",
+        "card-target-lg": "19rem",
         "xl-illustration": "80rem"
       },
       height: {
@@ -35,8 +36,8 @@ module.exports = {
         "mini-section": "35rem",
         "section-lg": "40rem",
         "section-lg-alt": "50rem",
-        "card-target": "30rem",
-        "card-target-large": "36rem"
+        "card-target": "36rem",
+        "card-target-2xl": "30rem"
       },
       scale: {
         "103": "1.03"
