@@ -5,7 +5,7 @@ import { Socials, Links } from "../../utility/data/footer";
 export const Footer = props => {
 
   return (
-    <div className="flex flex-col items-center justify-center space-y-10 h-footer bg-light-200">
+    <div className="flex flex-col items-center justify-center space-y-6 xl:space-y-10 h-80 xl:h-footer bg-light-200">
       <div className="flex flex-row items-center justify-center space-x-12">
         { Socials.map(item => (
           <Social
@@ -25,7 +25,7 @@ export const Footer = props => {
         )) }
       </div>
       <p
-        className="font-inter font-semibold text-3xl text-gray-500"
+        className="font-inter font-semibold text-2xl xl:text-3xl text-gray-500"
       >
         developed by {" "}
         <a
@@ -51,7 +51,7 @@ export const Social = props => {
       target="_blank"   
       href={props.href}
     >
-      <i className={`${props.icon} text-5xl text-gray-500 hover:text-gray-600 transition duration-300`} />
+      <i className={`${props.icon} text-4xl xl:text-5xl text-gray-500 hover:text-gray-600 transition duration-300`} />
     </a>
   );
 
@@ -63,7 +63,7 @@ export const Label = props => {
     <Link
       href={props.href}
     >
-      <a className="font-inter font-bold text-3xl text-gray-500 hover:text-gray-600 transition duration-300">{props.label}</a>
+      <a className="font-inter font-bold text-2xl xl:text-3xl text-gray-500 hover:text-gray-600 transition duration-300">{props.label}</a>
     </Link>
   );
 
