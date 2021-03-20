@@ -30,7 +30,7 @@ const Index = props => {
         <h2 className="font-acumin font-semibold text-center text-2xl lg:text-4xl 3xl:text-5xl text-gray-700">community developed; your data doesn't go for dimes</h2>
       </div>
       <div className="flex flex-col items-center justify-center py-10 md:py-0 w-full md:h-section lg:h-section-lg-alt 3xl:h-section bg-dark-100">
-        <div className="flex flex-row items-center justify-center flex-wrap max-w-7xl">
+        <div className="flex flex-row items-center justify-center flex-wrap lg:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl">
           { ValueCards.map(card => (
             <ValueCard 
               key={card.title}
@@ -53,7 +53,7 @@ const Index = props => {
         image="/images/home-social-illustration.svg"
         background="bg-light-100"
       />
-      <div className="flex flex-col items-center justify-center w-full py-16 md:py-0 md:h-section-lg-alt 3xl:h-section bg-light-200">
+      <div className="flex flex-col items-center justify-center w-full py-16 lg:py-0 lg:h-section-lg-alt 3xl:h-section bg-light-200">
         <h1 className="mb-5 font-acumin font-bold text-8xl md:text-9xl text-gray-800 tracking-tight">For...</h1>
         <div className="flex flex-col md:flex-row items-center justify-center mt-5 space-y-10 md:space-y-0 md:space-x-6 xl:space-x-12 w-full">
           { TargetCards.map(card => (
@@ -67,7 +67,7 @@ const Index = props => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full py-16 md:py-0 md:h-mini-section text-center bg-dark-100">
+      <div className="flex flex-col items-center justify-center w-full py-16 lg:py-0 lg:h-mini-section text-center bg-dark-100">
         <div className="flex flex-row items-center justify-center mb-2">
           <i className="fas fa-rocket-launch mr-2 text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-gray-300" />
           <span className="ml-2 font-acumin font-bold text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-gray-300">Get Started</span>
