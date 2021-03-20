@@ -41,10 +41,10 @@ function App({ Component, pageProps }) {
           href="https://pro.fontawesome.com/releases/v5.15.1/css/all.css"
         />
 
-        <script
-          crossorigin="anonymous"
-          src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
-        ></script>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/ellekasai/twemoji-awesome@gh-pages/twemoji-awesome.css"
+        />
 
       </Head>
       <Component {...pageProps} />
