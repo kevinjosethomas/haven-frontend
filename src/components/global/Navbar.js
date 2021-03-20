@@ -8,7 +8,7 @@ export const Navbar = ({ props, home }) => {
 
   return (
     <nav className={`flex flex-row items-center justify-start md:justify-between px-10 md:px-24 py-4 ${home ? "bg-blue-400 md:bg-transparent" : "bg-blue-500"}`}>
-      <div className="flex flex-row items-center justify-start">
+      <div className="flex flex-row sitems-center justify-start">
         <Logo
           color="white"
           type="wordmark"
@@ -16,7 +16,7 @@ export const Navbar = ({ props, home }) => {
           href="/"
         />
       </div>
-      <div className="hidden md:flex flex-row items-center justify-end space-x-4">
+      {/* <div className="hidden md:flex flex-row items-center justify-end space-x-4">
         <Button
           label="Login"
           width="w-24 lg:w-28"
@@ -31,7 +31,7 @@ export const Navbar = ({ props, home }) => {
           bgColor="blue-400"
           hoverBgColor="blue-500"
         />
-      </div>
+      </div> */}
     </nav>
   );
 

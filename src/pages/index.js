@@ -75,9 +75,13 @@ const Index = props => {
         <p
           className="my-3 max-w-xl lg:max-w-2xl xl:max-w-3xl font-inter font-medium text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-400"
         >Create your profile to start meeting new people and showing off your work!</p>
-        <div className="flex flex-col items-center justify-center mt-3 md:mt-5 py-3 lg:py-5 px-8 bg-blue-500 rounded cursor-pointer transform transition duration-500 hover:scale-105">
-          <span className="font-inter font-medium text-2xl xl:text-3xl text-gray-100">Join Haven</span>
-        </div>
+        <a
+        className="flex flex-col items-center justify-center mt-3 md:mt-5 py-3 lg:py-5 px-8 bg-blue-500 rounded cursor-pointer transform transition duration-500 hover:scale-105"
+          href="https://discord.haven.bio/"
+          target="_blank"
+        >
+          <span className="font-inter font-medium text-2xl xl:text-3xl text-gray-100">Join our Discord</span>
+        </a>
       </div>
       <Footer />
     </Layout>
