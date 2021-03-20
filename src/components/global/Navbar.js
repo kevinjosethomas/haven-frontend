@@ -7,7 +7,7 @@ import { NavbarButtonHover } from "../../utility/animations/global";
 export const Navbar = ({ props, home }) => {
 
   return (
-    <nav className={`flex flex-row items-center justify-start md:justify-between px-10 md:px-24 py-4 ${home ? "bg-blue-400 md:bg-transparent" : "bg-blue-500"}`}>
+    <nav className={`flex flex-row items-center justify-start md:justify-between px-10 md:px-24 xl:px-28 2xl:px-32 py-4 ${home ? "bg-blue-400 md:bg-transparent" : "bg-blue-500"}`}>
       <div className="flex flex-row sitems-center justify-start">
         <Logo
           color="white"
