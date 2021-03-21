@@ -18,7 +18,7 @@ export const Layout = props => {
           icon="twa twa-sparkles"
           label="Join Discord"
           href="https://discord.haven.bio"
-          message="Haven is currently under development, join our Discord server to keep track our progress!"
+          message="Haven is currently under development, join our Discord server to keep track of our progress!"
           setBannerStatus={setBannerStatus}
         />
       )}
