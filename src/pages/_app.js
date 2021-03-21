@@ -46,6 +46,71 @@ function App({ Component, pageProps }) {
           href="https://cdn.jsdelivr.net/gh/ellekasai/twemoji-awesome@gh-pages/twemoji-awesome.css"
         />
 
+        <link
+          rel="shortcut icon"
+          href="/images/favicon.ico"
+        />
+
+        <meta
+          name="title"
+          content="Haven | Connect your online presence"
+        />
+        <meta
+          name="description"
+          content="Connecting your online presence; Haven is for everything. Find likeminded individuals, share your work, look for jobs, host virtual events and a lot more!"
+        />
+        <meta
+          name="keywords"
+          content="haven, haven.bio, hvn, hvn.bio, social, social media, social content, profiles, social media profiles"
+        />
+        <meta
+          name="author"
+          content="teamcodebyte"
+        />
+
+        <meta
+          property="image"
+          content="/images/embed.png"
+        />
+
+        <meta
+          property="og:title"
+          content="Haven | Connect your online presence"
+        />
+        <meta
+          property="og:image"
+          content="/images/embed.png"
+        />
+        <meta
+          property="og:description"
+          content="Connecting your online presence; Haven is for everything. Find likeminded individuals, share your work, look for jobs, host virtual events and a lot more!"
+        />
+        <meta
+          property="og:url"
+          content="https://haven.bio/"
+        />
+
+        <meta
+          property="twitter:url"
+          content="https://haven.bio/"
+        />
+        <meta
+          property="twitter:title"
+          content="Haven | Connect your online presence"
+        />
+        <meta
+          property="twitter:description"
+          content="Connecting your online presence; Haven is for everything. Find likeminded individuals, share your work, look for jobs, host virtual events and a lot more!"
+        />
+        <meta
+          property="twitter:image"
+          content="/images/embed.png"
+        />
+        <meta
+          property="twitter:card"
+          content="summary_large_image"
+        />
+
       </Head>
       <Component {...pageProps} />
     </Fragment>
