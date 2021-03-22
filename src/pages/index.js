@@ -29,8 +29,8 @@ const Index = props => {
       <div className="flex flex-col items-center justify-center px-4 md:px-0 pt-5 py-7 w-full bg-light-100">
         <h2 className="font-acumin font-semibold text-center text-2xl lg:text-4xl 3xl:text-5xl text-gray-700">community developed; your data doesn't go for dimes</h2>
       </div>
-      <div className="flex flex-col items-center justify-center py-10 md:py-0 w-full md:h-section lg:h-section-lg-alt 3xl:h-section bg-dark-100">
-        <div className="flex flex-row items-center justify-center flex-wrap lg:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl">
+      <div className="flex flex-col items-center justify-center py-10 3xl:py-20 w-full bg-dark-100">
+        <div className="flex flex-row items-center justify-center flex-wrap lg:max-w-6xl 3xl:max-w-7xl">
           { ValueCards.map(card => (
             <ValueCard 
               key={card.title}
